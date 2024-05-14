@@ -1,17 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+
+  <div class="partie1">
+    <div class="livreajout">
+      <img class="livre" src="img/couvertures/saccage_couverture.jpg" alt="Livre">
+      <img class="ajout" src="icones/ajout.svg" alt="ajout">
+    </div>
+    <h1>Saccage</h1>
+    <h2>Frederik Peeters</h2>
+    <h2>2019</h2>
+    <img src="img/notes/Group 353.png" alt="note du livre">
+    <div class="genre">
+      <h4>Autobiographie </h4>
+      <h4>philosophique</h4>
+    </div>
+    <p>C’est une méditation poétique sur la nature et la solitude. L'auteur partage ses expériences d'entomologiste sur
+      une île suédoise,
+      offrant des réflexions profondes sur la vie, la mort et notre impact sur l'environnement. Ce récit captivant
+      invite
+      les lecteurs à ralentir,
+      contempler la beauté fragile de la nature et à réfléchir à notre place dans le monde.</p>
+
+
+  </div>
+  <img class="ligne" src="icones/Ligne.svg">
+
+
+
+
+  <div class="partie2">
+    <div class="commentaires"> <img src="icones/profil.svg" alt="profil">
+      <img class="notedonnée" src="img/notes/Group 491.png" alt="note donnée">
+      <h3>Cela nous fait réféchire à notre place dans le monde. J’adore</h3>
+    </div>
+    <img class="like" src="icones/pouce.svg" alt="like">
+  </div>
+
+  <div class="partie2">
+    <div class="commentaires"> <img src="icones/profil.svg" alt="profil">
+      <img class="notedonnée" src="img/notes/Group 493.png" alt="note donnée">
+      <h3>J'ai aimé que la fin...</h3>
+    </div>
+    <img class="like" src="icones/pouce.svg" alt="like">
+  </div>
+
+  <div class="partie2">
+    <div class="commentaires"> <img src="icones/profil.svg" alt="profil">
+      <img class="notedonnée" src="img/notes/Group 494.png" alt="note donnée">
+      <h3>super constructif !</h3>
+    </div>
+    <img class="like" src="icones/pouce.svg" alt="like">
+  </div>
+
+  <div class="partie2">
+    <div class="commentaires"> <img src="icones/profil.svg" alt="profil">
+      <img class="notedonnée" src="img/notes/Group 495.png" alt="note donnée">
+      <h3>Pas mal, pas mal.</h3>
+    </div>
+    <img class="like" src="icones/pouce.svg" alt="like">
+  </div>
+
+  <div class="partie2">
+    <div class="commentaires"> <img src="icones/profil.svg" alt="profil">
+      <img class="notedonnée" src="img/notes/Group 496.png" alt="note donnée">
+      <h3>J'ai lu mieux...</h3>
+    </div>
+    <img class="like" src="icones/pouce.svg" alt="like">
+  </div>
+
+  <div class="plus">
+    <h5>voir plus (28)</h5>
+    <img class="flèche" src="icones/fleche.svg" alt="voir plus">
+  </div>
+
+
+
+
+
+
+  <div class="partie3">
+    <div class="etoile">
+
+      <select class="star-rating" aria-label="Note utilisateur">
+        <option value="">Select a rating</option>
+        <option value="5">Excellent</option>
+        <option value="4">Very Good</option>
+        <option value="3">Average</option>
+        <option value="2">Poor</option>
+        <option value="1">Terrible</option>
+      </select>
+
+    </div>
+
+    <div class="ecrire">
+      <img src="icones/profil.svg" alt="votre profil">
+      <div class="blanc">
+        <p class="avis">Écrivez un avis</p>
+        <img class="envoyer" src="icones/envoyer.svg" alt="envoyer">
+      </div>
+    </div>
+
+    <footer>
+      <div class="rectangle">
+        <img class="icon1" src="img/wireframe/maison.png" alt="maison">
+        <img class="icon2" src="img/wireframe/recherche.png" alt="recherche">
+        <img class="icon3" src="img/wireframe/livre.png" alt="bibliothèque">
+        <img class="icon4" src="img/wireframe/profil.png" alt="profil">
+      </div>
+  </div>
+  </footer>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 🦊 Votre page ici -->
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+  <!-- 
         <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
@@ -21,12 +150,13 @@
             <option value="1">Terrible</option>
         </select>
     -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+  <script src="scripts/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: false,
+    });
+  </script>
+</body>
+
 </html>
