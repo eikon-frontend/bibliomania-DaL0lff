@@ -13,3 +13,254 @@
 }
 
 /* 🦊 Vos styles ici */
+body {
+
+  background: url(img/saccage_couverture.png)top /contain no-repeat;
+  background-color: #253045;
+  margin: 0%;
+}
+
+h1 {
+
+  color: #EAEAEA;
+  font-family: "IBM Plex Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h2 {
+  color: #EAEAEA;
+
+
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+}
+
+h3 {
+  color: #EAEAEA;
+
+
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  color: #253045;
+  border-radius: 7px;
+  background: #EBD09E;
+
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 5px 9px;
+}
+
+h5 {
+  color: rgba(234, 234, 234, 0.70);
+
+
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  color: #ABB1B8;
+
+  /* texte */
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+.livre {
+  max-width: 90%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.70);
+}
+
+.partie1 {
+  padding: 103px 70px 0px;
+}
+
+.partie2 {
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+
+.genre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.livreajout {
+  position: relative;
+}
+
+.ajout {
+  position: absolute;
+  bottom: -5%;
+  right: 8%;
+
+}
+
+.ligne {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.notedonnée {
+  width: 87px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.commentaires {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  width: 294px;
+  height: 88px;
+  box-sizing: border-box;
+  background-color: #142336;
+  border-radius: 7px;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.commentaires h3 {
+
+  margin: -10px;
+  margin-left: 50px;
+}
+
+.like {
+  box-sizing: border-box;
+  background-color: #EBD09E;
+  border-radius: 7px;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  margin-top: 50px;
+}
+
+.plus {
+  justify-content: center;
+  text-align: center;
+}
+
+.flèche {
+  display: flex;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.etoile {
+  display: flex;
+  justify-content: center;
+
+}
+
+.ecrire {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.avis {
+  color: rgba(25, 44, 68, 0.80);
+  text-align: left;
+  margin-left: 10px;
+}
+
+.blanc {
+  display: flex;
+  background-color: #EAEAEA;
+  width: 100%;
+  height: 42px;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+
+.envoyer {
+  width: 10%;
+  height: 20px;
+  margin-left: 155px;
+  margin-top: 10px;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  background: #EBD09E;
+  width: 100%;
+  height: 72px;
+  text-align: center;
+  justify-content: space-around;
+
+}
+
+.icon1 {
+  margin-top: 15px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.icon2 {
+  margin-right: 10%;
+}
+
+.icon3 {
+  margin-right: 10%;
+}
+
+.icon4 {
+  margin-right: 10%;
+
+}
